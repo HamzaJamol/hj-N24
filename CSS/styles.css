@@ -1,0 +1,114 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+
+.site-logo {
+  display: flex;
+  background-color: #8D8D8D;
+}
+
+.header-top-one {
+  display: flex;
+  font-size: 16px;
+  border-radius: 2px;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.header-top-links {
+  display: flex;
+  font-size: 16px;
+  border-radius: 2px;
+  justify-content: space-between;
+  text-align: justify;
+  color: #8D8D8D;
+}
+
+.shopme {
+  justify-content: space-between;
+  display: flex;
+}
+
+.shopme img {
+  justify-content: space-between;
+}
+
+.section-one {
+  justify-content: space-between;
+}
+
+.main-window {
+  display: block;
+  background-color:aqua;
+
+}
+
+.main-button {
+  width: 1050px;
+  height: 100px;
+  background-color: #F78B3B;
+}
+
+.window-two {
+  display: block;
+}
+
+.windows-two {
+  display: flex;
+  justify-content: space-between;
+  background-color:#F6F6F6;
+}
+
+.header-bottom-window {
+  padding-left: 0px;
+
+}
+
+.header-bottom-windows {
+  display: block;
+  justify-content: space-between;
+  padding-left: -10px;
+  padding-right: 40px;
+  background-color:#F6F6F6;
+}
+
+.header-bottom {
+  display: inline-block;
+  justify-content: space-between;
+  width: 1050px;
+  height: 20px;
+  background-color:yellow;
+
+}
+
+.footer-bottom {
+  background-color: #7297EF;
+  width: 1440px;
+  height: 356px;
+}
+
+.socials-link {
+  display: flex;
+}

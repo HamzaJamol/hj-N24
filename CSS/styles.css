@@ -26,6 +26,32 @@ img {
   height: auto;
 }
 
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button-primary {
+  background-color: #7296ec;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -36,24 +62,89 @@ img {
   margin-right: auto;
 
 }
-
-
-
-
-
-
-
-
-
-.header-top {
-  display: flex;
-  justify-content: space-between;
-
-
-
+/* SITE-HEADER */
+.site-header {
 }
 
-.site-logo {
+
+/* SITE-HEADER-TOP */
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+background-color:#F6F6F6;
+}
+
+.site-header-top-container {
+display: flex;
+align-items: center;
+}
+
+
+.container {
+}
+.site-header-logo {
+  display: flex;
+  padding: 8px 6px;
+  margin-right: 35px;
+  border-radius: 7px;
+  background-color: #fff ;
+}
+
+.site-header-logo:hover {
+opacity: 0.8;
+}
+
+.site-header-logo:active {
+  opacity: 0.6;
+}
+
+/* CURRENCY-RATES */
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: auto;
+}
+.currency-rates-items:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-rates-type {
+  color:#2959CE;
+}
+
+/* LANG-TOGGLE */
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  margin-right: 25px;
+  border-radius: 39px;
+  background-color:#dce6ff;
+}
+
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #a6a6a6;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lang-toggle-link-active {
+  background-color: #fff;
+  color: #000;
+}
+.button {
+}
+.button-primary {
+}
+
+
+/* .site-logo {
   display: flex;
   background-color: #8D8D8D;
 }
@@ -123,8 +214,8 @@ img {
 }
 
 .header-bottom {
-  display: inline-block;
-  justify-content: space-between;
+  display: inline-block; */
+  /* justify-content: space-between;
   width: 1050px;
   height: 20px;
   background-color:yellow;
@@ -139,4 +230,4 @@ img {
 
 .socials-link {
   display: flex;
-}
+} */

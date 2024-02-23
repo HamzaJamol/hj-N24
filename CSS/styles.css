@@ -26,6 +26,13 @@ img {
   height: auto;
 }
 
+
+/* OUTLINE-STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+
+}
+
 /* BUTTON */
 .button {
   display: inline-block;
@@ -63,20 +70,19 @@ img {
 
 }
 /* SITE-HEADER */
-.site-header {
-}
+
 
 
 /* SITE-HEADER-TOP */
 .site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
-background-color:#F6F6F6;
+  background-color:#F6F6F6;
 }
 
 .site-header-top-container {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -91,7 +97,7 @@ align-items: center;
 }
 
 .site-header-logo:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 .site-header-logo:active {
@@ -113,6 +119,24 @@ opacity: 0.8;
 .currency-rates-type {
   color:#2959CE;
 }
+
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form {
+margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+}
+
 
 /* LANG-TOGGLE */
 .lang-toggle {

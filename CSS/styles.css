@@ -72,37 +72,26 @@ img {
 /* SITE-HEADER */
 
 
-
-/* SITE-HEADER-TOP */
-.site-header-top {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color:#F6F6F6;
+/* SITENAV */
+.sitenav {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 20px;
 }
-
-.site-header-top-container {
+.sitenav-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav-item {
+}
+.sitenav-link {
+}
+.header-top-links {
 }
 
-
-.container {
-}
-.site-header-logo {
-  display: flex;
-  padding: 8px 6px;
-  margin-right: 35px;
-  border-radius: 7px;
-  background-color: #fff ;
-}
-
-.site-header-logo:hover {
-  opacity: 0.8;
-}
-
-.site-header-logo:active {
-  opacity: 0.6;
-}
 
 /* CURRENCY-RATES */
 .currency-rates {
@@ -123,7 +112,7 @@ img {
 
 /* GLOBAL-SEARCH-FORM */
 .global-search-form {
-margin-right: 25px;
+  margin-right: 25px;
 }
 
 .global-search-form-input {
